@@ -10,7 +10,7 @@
 
 typecheck、build 通過；受影響的 manager／i18n 共 27 項測試通過，含改名保留關聯、空名／過長／同名／跨專案拒絕，以及不改遊戲 bytes。未重跑無關資料層測試。
 
-Windows Electron 隔離 fixture UI 通過：改名確認／取消、成員保留、重載後名稱保存、首頁圖示；四語 × 800／1120 寬度下，長檔名與三筆上傳歷史不重疊／不溢出，列表原圖與替換圖頂端一致。附 [UI 結果](evidence/languages-drag/layout-0.5.1.json)、[日文窄視窗](evidence/languages-drag/history-ja-800.png)、[英文一般視窗](evidence/languages-drag/history-en-1120.png)。沿用真實 main/preload/renderer 與自製資料，原生對話框仍為替身，不代表真實遊戲或最終發行驗收。
+Windows Electron 隔離 fixture UI 通過：改名確認／取消、成員保留、重載後名稱保存、首頁圖示；四語 × 800／1120 寬度下，長檔名與三筆上傳歷史不重疊／不溢出，列表原圖與替換圖頂端一致。附 [UI 結果](evidence/languages-drag/layout-0.5.1.json)、日文窄視窗、英文一般視窗。沿用真實 main/preload/renderer 與自製資料，原生對話框仍為替身，不代表真實遊戲或最終發行驗收。
 
 本次修改程式檔案完成格式整理；全工作區 diff 檢查另有使用者既有 OperationPanel.tsx／ProjectDialogs.tsx 空白警告，未為此改寫其檔案。結束時 native 模組維持 Electron ABI。
 
