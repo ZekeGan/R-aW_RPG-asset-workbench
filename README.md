@@ -6,7 +6,7 @@
 
 在 Windows 上管理 RPG Maker MV／MZ 的圖片替換：保留固定原圖、預覽替換版本、批量配對，確認後套用到遊戲，必要時還原。
 
-目前原始碼版本為 **0.5.8**，正準備 1.0 發行；本文件不表示 1.0 已發布。支援目標為 Windows x64；最低 Windows 版本與 ARM64 尚未驗收。
+目前原始碼版本為 **0.5.9**，正準備 1.0 發行；本文件不表示 1.0 已發布。支援目標為 Windows x64；最低 Windows 版本與 ARM64 尚未驗收。
 
 ## 下載與啟動
 
@@ -48,4 +48,4 @@
 
 本專案採 [MIT 授權](LICENSE)，Copyright © 2026 Zeke Gan。第三方元件與遊戲素材不因本專案採 MIT 而改變授權；發行包的第三方聲明仍須在正式發布前核對。
 
-[版本更新](docs/UPDATE_0.5.8.md) · [開發與 AI 文件](docs/development/INDEX.md)
+[版本更新](docs/UPDATE_0.5.9.md) · [開發與 AI 文件](docs/development/INDEX.md)

@@ -4,11 +4,11 @@
 
 ## 目前狀態
 
-- 程式版號 0.5.8，正在準備發行，尚未發布 1.0.0。各版摘要見 [CHANGELOG](docs/CHANGELOG.md)。
+- 程式版號 0.5.9，正在準備發行，尚未發布 1.0.0。各版摘要見 [CHANGELOG](docs/CHANGELOG.md)。
 - 0.5.4 `pack:zip` 的 ZIP、四語文件、12 份授權檔、版號及 SHA-256 已核對；0.5.5 補上確認掃描時的作業提示（typecheck、build、隔離 Electron 驗收通過）。
 - 乾淨 Windows／舊資料升級驗收與 LGPL 發行義務核對仍待完成，見 [發行準備](docs/development/RELEASE_PREPARATION.md)。
 - 使用者曾口頭回報手動測試「沒什麼大問題」，那是摘要回報，不補造逐項證據。
-- 尚未推送或發布；原生模組應保持 Electron ABI。
+- 已推送到 origin/main，尚未發布；原生模組應保持 Electron ABI。
 
 ## 授權範圍
 
@@ -19,7 +19,7 @@
 ## 升版與提交規則（使用者 2026-11-01 指定）
 
 - **每次修改完成後都升版並 commit**，包含只改文件的批次。一個完成並驗證的修改批次為一單位，不是每次存檔；不逐檔零碎提交。
-- 一般修正與文件批次遞增 patch，功能里程碑另定 minor，1.0.0 須使用者明確確認發行階段。下一個版號為 0.5.8。
+- 一般修正與文件批次遞增 patch，功能里程碑另定 minor，1.0.0 須使用者明確確認發行階段。下一個版號為 0.5.10。
 - 同步 `package.json`、`package-lock.json`（根專案兩處）、README 與 INDEX 的版號、新增 `docs/UPDATE_<版號>.md`（打包腳本依此檔名取更新紀錄，不可改名）及 `docs/CHANGELOG.md` 一行。
 - commit 訊息簡述內容並含版號；只 commit，**不推送、不打標籤、不發布**，那些仍須使用者明確指示。
 
