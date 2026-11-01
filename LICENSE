@@ -1,3 +1,19 @@
+"Commons Clause" License Condition v1.0
+
+The Software is provided to you by the Licensor under the License, as defined below, subject to the following condition.
+
+Without limiting other conditions in the License, the grant of rights under the License will not include, and the License does not grant to you, the right to Sell the Software.
+
+For purposes of the foregoing, "Sell" means practicing any or all of the rights granted to you under the License to provide to third parties, for a fee or other consideration (including without limitation fees for hosting or consulting/ support services related to the Software), a product or service whose value derives, entirely or substantially, from the functionality of the Software. Any license notice or attribution required by the License must also include this Commons Clause License Condition notice.
+
+Software: RPG Asset Workbench (R-aW)
+License: MIT
+Licensor: Zeke Gan
+
+Clarifications (not additional terms): changing the name, logo or branding of the Software does not change whether a use is a "Sell". Using the Software to make or manage games and game assets, including commercial ones, is not a "Sell". Versions released before this license took effect (up to and including 0.5.11) remain available under the plain MIT License to those who received them.
+
+---
+
 MIT License
 
 Copyright (c) 2026 Zeke Gan

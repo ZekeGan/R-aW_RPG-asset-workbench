@@ -6,7 +6,7 @@ English · [繁體中文](docs/user/README.zh-TW.md) · [简体中文](docs/user
 
 Manage image replacements for RPG Maker MV/MZ on Windows: keep a fixed original backup, preview replacement versions, match batches, and apply or restore images after confirmation.
 
-The current source version is **0.5.11**. Version 1.0 is being prepared, not announced as released. The target is Windows x64; the minimum Windows version and ARM64 have not been validated.
+The current source version is **0.5.12**. Version 1.0 is being prepared, not announced as released. The target is Windows x64; the minimum Windows version and ARM64 have not been validated.
 
 **Project roles:** humans lead the project (direction, requirements, decisions, acceptance); AI handles the software development.
 
@@ -48,6 +48,6 @@ The home-screen language icon switches between Traditional Chinese, Simplified C
 
 Use this repository's Issues, if enabled. Include the application, Windows, and engine versions; reproduction steps; expected/actual results; and error screenshots. Redact personal paths. Do not upload complete private games, encryption keys, or assets you are not authorized to share.
 
-[MIT License](LICENSE), Copyright © 2026 Zeke Gan. Third-party components and game assets retain their own licenses. Notices in the final distribution still require review before release.
+Licensed under the [MIT License with the Commons Clause](LICENSE), Copyright © 2026 Zeke Gan: the source is open to use and modify, but you may not sell the software or a paid product/service built on it (renaming or changing the logo does not change this). Using it to make commercial games is allowed. Versions up to 0.5.11 stay under plain MIT. Third-party components and game assets retain their own licenses. Notices in the final distribution still require review before release.
 
-[Version notes](docs/UPDATE_0.5.11.md) · [Developer and AI documentation](docs/development/INDEX.md)
+[Version notes](docs/UPDATE_0.5.12.md) · [Developer and AI documentation](docs/development/INDEX.md)

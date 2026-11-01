@@ -61,7 +61,7 @@ async function main() {
   const notice = [
     '# Third-party notices',
     '',
-    'This application is MIT licensed; see LICENSE in this folder.',
+    'This application is licensed under the MIT License with the Commons Clause (no selling the software); see LICENSE in this folder.',
     'Electron and Chromium notices are supplied separately in the application folder as LICENSE.electron.txt and LICENSES.chromium.html.',
     'The packages below are included in the Windows x64 application or its bundled renderer. License texts are preserved under third-party/.',
     '',
