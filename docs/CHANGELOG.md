@@ -4,6 +4,7 @@
 
 | 版本 | 日期 | 摘要 | 細節 |
 | --- | --- | --- | --- |
+| 0.5.11 | 2026-11-01 | 四語 README 加註「人類主導專案、AI 負責程式開發」 | [UPDATE_0.5.11](UPDATE_0.5.11.md) |
 | 0.5.10 | 2026-11-01 | 根目錄 README 改為預設英文；繁中移至 docs/user/README.zh-TW.md | [UPDATE_0.5.10](UPDATE_0.5.10.md) |
 | 0.5.9 | 2026-11-01 | 修正 AGENTS.md 的下一版號與推送狀態（無程式變更） | [UPDATE_0.5.9](UPDATE_0.5.9.md) |
 | 0.5.8 | 2026-11-01 | 去除交接包內約 9 MB 重複副本；截圖輸出列入 .gitignore；新增 .gitattributes | [UPDATE_0.5.8](UPDATE_0.5.8.md) |

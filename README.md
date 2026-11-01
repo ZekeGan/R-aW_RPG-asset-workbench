@@ -6,7 +6,9 @@ English · [繁體中文](docs/user/README.zh-TW.md) · [简体中文](docs/user
 
 Manage image replacements for RPG Maker MV/MZ on Windows: keep a fixed original backup, preview replacement versions, match batches, and apply or restore images after confirmation.
 
-The current source version is **0.5.10**. Version 1.0 is being prepared, not announced as released. The target is Windows x64; the minimum Windows version and ARM64 have not been validated.
+The current source version is **0.5.11**. Version 1.0 is being prepared, not announced as released. The target is Windows x64; the minimum Windows version and ARM64 have not been validated.
+
+**Project roles:** humans lead the project (direction, requirements, decisions, acceptance); AI handles the software development.
 
 ## Download and run
 
@@ -48,4 +50,4 @@ Use this repository's Issues, if enabled. Include the application, Windows, and 
 
 [MIT License](LICENSE), Copyright © 2026 Zeke Gan. Third-party components and game assets retain their own licenses. Notices in the final distribution still require review before release.
 
-[Version notes](docs/UPDATE_0.5.10.md) · [Developer and AI documentation](docs/development/INDEX.md)
+[Version notes](docs/UPDATE_0.5.11.md) · [Developer and AI documentation](docs/development/INDEX.md)
