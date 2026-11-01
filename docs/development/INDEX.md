@@ -1,13 +1,17 @@
 # 開發與 AI 接手入口
 
-使用者操作見 [繁中 README](../../README.md)，其他語言由該頁互連。這裡是工程文件入口；目前程式版號 0.5.5，正在準備發行，尚未發布 1.0。最新圖示更新見 [0.5.2](../UPDATE_0.5.5.md)。
+使用者操作見 [繁中 README](../../README.md)，其他語言由該頁互連。這裡是工程文件入口；目前程式版號 0.5.6，正在準備發行，尚未發布 1.0。各版摘要見 [版本索引](../CHANGELOG.md)。
 
-## 必讀順序
+## 快速路徑（一般開發）
 
-已讀且未變動的文件不必重讀；沿用現有上下文，只讀與任務相關段落。全新接手依序閱讀：
+已讀且未變動的文件不必重讀，只讀與任務相關段落。日常修改只需：根目錄 [AGENTS.md](../../AGENTS.md)、[發行準備](RELEASE_PREPARATION.md)、[版本索引](../CHANGELOG.md)，再依任務開啟對應程式與測試。
+
+## 完整必讀順序（全新接手）
+
+依序閱讀：
 
 1. 根目錄 [AGENTS.md](../../AGENTS.md)：當前授權、升版與效率規則；使用者最新明確決策優先。
-2. [發行準備狀態](RELEASE_PREPARATION.md)、[0.5.1 更新](../UPDATE_0.5.1.md)、[最新需求](../NEXT_REQUESTS.md)、[測試報告](../TEST_REPORT.md)、[最終手動清單](../MANUAL_RELEASE_CHECKLIST.md)。區分使用者回報、自動測試、待驗收，不能沿用歷史 PASS 代替本次結果。
+2. [發行準備狀態](RELEASE_PREPARATION.md)、[版本索引](../CHANGELOG.md)、[最新需求](../NEXT_REQUESTS.md)、[測試報告](../TEST_REPORT.md)、[最終手動清單](../MANUAL_RELEASE_CHECKLIST.md)。區分使用者回報、自動測試、待驗收，不能沿用歷史 PASS 代替本次結果。
 3. 歷史交接基準：依序 [HANDOFF](../handoff-2026-10-23/HANDOFF.md)、[DECISIONS](../handoff-2026-10-23/DECISIONS.md)、[BACKLOG](../handoff-2026-10-23/BACKLOG.md)、[OPEN_ITEMS](../handoff-2026-10-23/OPEN_ITEMS.md)、[MOCKUP_MAP](../handoff-2026-10-23/MOCKUP_MAP.md)、[STATUS_AND_TESTS](../handoff-2026-10-23/STATUS_AND_TESTS.md)、[ACCEPTANCE_CHECKLIST](../handoff-2026-10-23/ACCEPTANCE_CHECKLIST.md)。做對應 UI 時實際開啟 Mockup；歷史未授權或未決狀態以後續決策修正。
 4. [原規格 AGENTS](../../spec-v1.0.0/AGENTS.md)，再依序閱讀其 PRD、ARCHITECTURE、TEST_PLAN、SPEC_REVIEW、design/INDEX。路徑相對 spec-v1.0.0；保留 FR／SCREEN／DEC 與 H-B／H-D 識別，不因整理文件重編號。
 5. [實作紀錄](../IMPLEMENTATION.md)、[技術基準](../TECHNICAL_BASELINE.md)、[0.4.0 更新](../UPDATE_0.4.0.md)，再依序看 [0.5 核心變更](../DEVELOPMENT_0.5.md)、[專案管理變更](../DEVELOPMENT_NEXT.md)、[四語變更](../DEVELOPMENT_LANGUAGES.md)、[0.5.1 更新](../UPDATE_0.5.1.md)，理解後續決策如何補充原規格。
