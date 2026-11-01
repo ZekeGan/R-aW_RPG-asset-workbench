@@ -31,7 +31,7 @@ Windows x64，Node 24.13.0、npm 11.6.2、Electron 45.0.0；全部資料為自�
 | File 橋接 | PASS，CDP 載入實際本機 File 後經 preload 單圖匯入與批量預檢；詳細頁多圖拒絕。尚未驗證 Windows 檔案總管的實際拖放手勢 |
 | UI | 1120×780、800×600 無整頁水平溢出；批量獨立頁、套用確認阻擋；實際開啟截圖檢查，未宣稱全畫面／所有狀態 Mockup 驗收完成 |
 
-Electron 驗證程式：tests/electron-smoke.cjs；證據：docs/evidence/ui-0.5.json、ui-0.5-original.png、ui-0.5-batch-1120.png、ui-0.5-batch-800.png。測試建立 out/qa-* 隔離 userData 與遊戲，不使用使用者既有工具資料。
+Electron 驗證程式：tests/electron-smoke.cjs；證據：docs/evidence/ui-0.5.json；重跑會在 docs/evidence 產生截圖，但 PNG 已列入 .gitignore，不納入版本控制。測試建立 out/qa-* 隔離 userData 與遊戲，不使用使用者既有工具資料。
 
 重跑 Electron smoke 前需 npm run build、npm run native:electron，並在該程序清除 ELECTRON_RUN_AS_NODE，再執行 node node_modules/electron/cli.js tests/electron-smoke.cjs。回到 Node 測試前先 npm run native:node。
 

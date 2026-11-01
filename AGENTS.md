@@ -4,7 +4,7 @@
 
 ## 目前狀態
 
-- 程式版號 0.5.7，正在準備發行，尚未發布 1.0.0。各版摘要見 [CHANGELOG](docs/CHANGELOG.md)。
+- 程式版號 0.5.8，正在準備發行，尚未發布 1.0.0。各版摘要見 [CHANGELOG](docs/CHANGELOG.md)。
 - 0.5.4 `pack:zip` 的 ZIP、四語文件、12 份授權檔、版號及 SHA-256 已核對；0.5.5 補上確認掃描時的作業提示（typecheck、build、隔離 Electron 驗收通過）。
 - 乾淨 Windows／舊資料升級驗收與 LGPL 發行義務核對仍待完成，見 [發行準備](docs/development/RELEASE_PREPARATION.md)。
 - 使用者曾口頭回報手動測試「沒什麼大問題」，那是摘要回報，不補造逐項證據。
@@ -28,7 +28,7 @@
 - 固定原圖不可覆寫；選用（active）與部署（deployed）分離，匯入不寫遊戲；外部變更阻擋套用與還原。
 - 永久刪除專案只清理工具管理資料，須確認失去備份／還原能力，遊戲保持當前狀態。已部署版本與原圖不可單獨刪除。
 - 視覺與版面以 Mockup 為準、Wireframe 為參考；Mockup 示意文字不得放寬靜態 PNG、基準保護等安全規則。
-- 原 FR／SCREEN／DEC 編號與 H-B／H-D 追蹤號保留，不重編；歷史交接包與 `INTEGRATION_MANIFEST.json` 不改寫。
+- 原 FR／SCREEN／DEC 編號與 H-B／H-D 追蹤號保留，不重編；`INTEGRATION_MANIFEST.json` 為當時交付紀錄不改寫；歷史交接包的內容未經使用者同意不改，2026-11-01 使用者已同意刪除其中與正本逐 byte 相同的副本（見 `docs/handoff-2026-10-23/reference/README.md`）。
 
 ## 驗證規則
 

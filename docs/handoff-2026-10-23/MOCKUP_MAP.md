@@ -2,15 +2,15 @@
 
 Mockup 為視覺／位置標準，Wireframe 為參考。不要只讀本表後憑想像畫；先開啟對應原圖，核對區塊順序、左右位置、間距、尺寸、色彩與頁面／彈窗形態。產品行為衝突依 DECISIONS.md，不照舊圖中的不安全文字實作。
 
-本包 reference/mockups/ 保存原始五張設計圖，檔名與原專案 spec-v1.0.0/design/mockups/ 相同；不是應用截圖。原索引副本：reference/DESIGN_INDEX_0.4.md。
+原始五張設計圖位於 spec-v1.0.0/design/mockups/（2026-11-01 起不再於本包重複攜帶，bytes 相同）；不是應用截圖。原索引副本：reference/DESIGN_INDEX_0.4.md。
 
 | 圖組 | 原始檔案（本包可點擊） | 對應 |
 |---|---|---|
-| M0 | [工作臺單張](reference/mockups/exec-4af42c68-ab64-4648-847d-6f9256ef703d.png) | 工作臺整體視覺 |
-| M1 | [01–04](reference/mockups/exec-1a98fef8-232b-41ed-9498-479f88695a31.png) | 首頁、建立、工作臺、詳細 |
-| M2 | [05–08](reference/mockups/exec-307c60cb-5c2b-43e2-8b14-3a975e7fbd7e.png) | 群組素材、群組管理、批量配對、匯出 |
-| M3 | [09–12](reference/mockups/exec-b410123f-59e4-4e3a-b7b7-a6a4620cb853.png) | 上傳、全畫面預覽、切版本、刪除／取消 |
-| M4 | [13–16](reference/mockups/exec-3a13dea0-eae8-4953-a15b-83c13521c613.png) | 套用、還原、專案設定、失敗恢復 |
+| M0 | [工作臺單張](../../spec-v1.0.0/design/mockups/exec-4af42c68-ab64-4648-847d-6f9256ef703d.png) | 工作臺整體視覺 |
+| M1 | [01–04](../../spec-v1.0.0/design/mockups/exec-1a98fef8-232b-41ed-9498-479f88695a31.png) | 首頁、建立、工作臺、詳細 |
+| M2 | [05–08](../../spec-v1.0.0/design/mockups/exec-307c60cb-5c2b-43e2-8b14-3a975e7fbd7e.png) | 群組素材、群組管理、批量配對、匯出 |
+| M3 | [09–12](../../spec-v1.0.0/design/mockups/exec-b410123f-59e4-4e3a-b7b7-a6a4620cb853.png) | 上傳、全畫面預覽、切版本、刪除／取消 |
+| M4 | [13–16](../../spec-v1.0.0/design/mockups/exec-3a13dea0-eae8-4953-a15b-83c13521c613.png) | 套用、還原、專案設定、失敗恢復 |
 
 | 畫面號 | 重點與待辦 |
 |---|---|
