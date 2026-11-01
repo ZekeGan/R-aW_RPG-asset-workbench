@@ -2,11 +2,11 @@
 
 <img src="../../resources/icon.png" alt="R-aW" width="96" height="96" />
 
-[繁體中文](../../README.md) · 简体中文 · [日本語](README.ja.md) · [English](README.en.md)
+[English](../../README.md) · [繁體中文](README.zh-TW.md) · 简体中文 · [日本語](README.ja.md)
 
 在 Windows 上管理 RPG Maker MV／MZ 的图片替换：保留固定原图、预览替换版本、批量配对，确认后应用到游戏，需要时还原。
 
-当前源码版本为 **0.5.9**，正在准备 1.0 发布；本文不表示 1.0 已发布。目标平台为 Windows x64；最低 Windows 版本与 ARM64 尚未验证。
+当前源码版本为 **0.5.10**，正在准备 1.0 发布；本文不表示 1.0 已发布。目标平台为 Windows x64；最低 Windows 版本与 ARM64 尚未验证。
 
 ## 下载与启动
 
@@ -48,4 +48,4 @@
 
 本项目采用 [MIT 许可证](../../LICENSE)，Copyright © 2026 Zeke Gan。第三方组件与游戏素材仍遵循各自的授权；正式发布前仍需核对发行包中的第三方声明。
 
-[版本更新](../UPDATE_0.5.9.md) · [开发与 AI 文档](../development/INDEX.md)
+[版本更新](../UPDATE_0.5.10.md) · [开发与 AI 文档](../development/INDEX.md)

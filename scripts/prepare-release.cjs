@@ -38,7 +38,7 @@ async function main() {
     ['README.md', 'README.md'],
     ['docs/user/README.zh-CN.md', 'docs/user/README.zh-CN.md'],
     ['docs/user/README.ja.md', 'docs/user/README.ja.md'],
-    ['docs/user/README.en.md', 'docs/user/README.en.md'],
+    ['docs/user/README.zh-TW.md', 'docs/user/README.zh-TW.md'],
     [`docs/UPDATE_${version}.md`, `docs/UPDATE_${version}.md`],
     ['resources/icon.png', 'resources/icon.png'],
   ])
@@ -47,7 +47,7 @@ async function main() {
     'README.md',
     'docs/user/README.zh-CN.md',
     'docs/user/README.ja.md',
-    'docs/user/README.en.md',
+    'docs/user/README.zh-TW.md',
   ]) {
     const target = path.join(documentation, readme);
     const body = await fs.readFile(target, 'utf8');

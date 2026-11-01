@@ -1,51 +1,51 @@
-# RPG Asset Workbench（R-aW）
+# RPG Asset Workbench (R-aW)
 
 <img src="resources/icon.png" alt="R-aW" width="96" height="96" />
 
-繁體中文 · [简体中文](docs/user/README.zh-CN.md) · [日本語](docs/user/README.ja.md) · [English](docs/user/README.en.md)
+English · [繁體中文](docs/user/README.zh-TW.md) · [简体中文](docs/user/README.zh-CN.md) · [日本語](docs/user/README.ja.md)
 
-在 Windows 上管理 RPG Maker MV／MZ 的圖片替換：保留固定原圖、預覽替換版本、批量配對，確認後套用到遊戲，必要時還原。
+Manage image replacements for RPG Maker MV/MZ on Windows: keep a fixed original backup, preview replacement versions, match batches, and apply or restore images after confirmation.
 
-目前原始碼版本為 **0.5.9**，正準備 1.0 發行；本文件不表示 1.0 已發布。支援目標為 Windows x64；最低 Windows 版本與 ARM64 尚未驗收。
+The current source version is **0.5.10**. Version 1.0 is being prepared, not announced as released. The target is Windows x64; the minimum Windows version and ARM64 have not been validated.
 
-## 下載與啟動
+## Download and run
 
-發布後請從本儲存庫的 **Releases** 頁下載 Windows x64 發行 ZIP；GitHub 的「Source code」ZIP 是原始碼，不是可直接執行的版本。若尚無發行附件，代表下載包尚未提供。
+When available, download the Windows x64 release ZIP from this repository's **Releases** page. GitHub's “Source code” ZIP is not a runnable application. If no release asset is listed, a download package is not yet available.
 
-將發行 ZIP **完整解壓縮**到可寫入的資料夾，開啟 `RPG Asset Workbench.exe`。保留同資料夾的所有檔案，不要只移動 EXE，也不要直接從壓縮檔內啟動。打包成品不需要另行安裝 Node.js。
+Extract the **entire ZIP** into a writable folder and open `RPG Asset Workbench.exe`. Keep all accompanying files. Do not move only the EXE or launch it inside the ZIP. The packaged application does not require a separate Node.js installation.
 
-## 開始使用
+## Quick start
 
-1. 先另存一份遊戲備份。首次建案選擇可信、未修改的遊戲副本，讓工具保存固定原圖基準。
-2. 在首頁建立專案、選擇遊戲位置，等待掃描完成。取消掃描會保留成果，可稍後續掃；未完成時不能套用。
-3. 在素材工作臺搜尋、瀏覽原始資料夾或建立自訂群組。原圖與替換圖可點擊放大。
-4. 將單張靜態 PNG 拖到素材列的替換圖片欄，確認後匯入；多張進入批量配對。多候選需手動指定，確認前檢查配對結果。
-5. 選用版本只建立待套用狀態；按「套用到遊戲」並確認後才寫入。進入遊戲確認圖片顯示。
-6. 選回原圖也要確認套用才生效；需要還原時使用還原功能。歷史版本仍保留。
+1. Make an independent backup of the game. Create your first project from a trusted, unmodified game copy so the tool can preserve a fixed original baseline.
+2. Create a project on the home screen, select the game location, and let scanning finish. Cancelling preserves progress for resuming; incomplete scans cannot be applied.
+3. Search the workbench, browse original folders, or create custom groups. Click original or replacement previews to enlarge them.
+4. Drop one static PNG onto an asset's replacement column and confirm the import. Drop multiple files for batch matching. Resolve ambiguous matches manually and review the targets before confirming.
+5. Selecting a version only stages a change. Use “Apply to game” and confirm before files are written. Check the result inside the game.
+6. Selecting the original also requires applying the change. Use restoration when needed; version history is retained.
 
-首頁語言圖示可切換繁中、簡中、英文與日文。專案設定可改名稱、封面及重新連結位置；自訂群組可改名、加入或移除素材。
+The home-screen language icon switches between Traditional Chinese, Simplified Chinese, English, and Japanese. Project settings provide names, covers, and location relinking. Custom groups support renaming and membership changes.
 
-## 資料、備份與刪除
+## Data, backups, and deletion
 
-- 工具資料另外保存在 Windows 使用者的應用程式資料目錄，並非全部放在 EXE 旁。ZIP 可解壓執行，不代表資料隨資料夾攜帶。
-- 升級前關閉程式，備份遊戲及完整工具資料目錄，再將新版解壓到另一個資料夾。若舊專案沒有出現，先停止操作並回報，不要重建或刪除舊資料。
-- **永久刪除專案會刪除工具保存的原圖、替換版本及關聯資料，失去工具備份／還原能力。遊戲保留刪除當下的圖片狀態，不會自動還原。** 若要回原圖，先還原並確認，再刪除專案。
-- 移除群組或群組內素材只移除分類關聯。取消待套用與刪除版本是不同操作；原圖與已部署版本不能單獨刪除。
-- 移除解壓的程式資料夾不等於清除工具資料；請勿在需要還原時刪除工具資料目錄。
+- Tool data is stored separately in the Windows user's application data directory, not entirely beside the EXE. An extract-and-run ZIP does not mean project data travels with the application folder.
+- Before upgrading, close the application and back up both the game and the complete tool data directory. Extract the new version into a separate folder. If old projects are missing, stop and report the issue instead of recreating projects or deleting old data.
+- **Permanently deleting a project removes its tool-managed original backups, replacement versions, and related data. You lose the tool's backup/restore capability. Game files remain in their current state; deletion does not restore them.** Restore and verify the originals first if that is what you want.
+- Removing a group or its members only removes classification links. Cancelling a pending change differs from deleting a version. Originals and deployed versions cannot be deleted individually.
+- Deleting the extracted application folder does not clear tool data. Do not delete the tool data directory while you still need restoration.
 
-## 支援與限制
+## Support and limits
 
-- RPG Maker MV／MZ 未加密與標準圖片加密；不承諾支援自訂加密或修改過的引擎。
-- 匯入只接受靜態 PNG，不接受 JPEG、APNG 或偽裝副檔名。每檔上限 32 MiB。
-- 一般上限 16,777,216 像素；替換／批量匯入可確認處理較大圖片，硬上限 33,554,432 像素。原圖掃描與專案封面仍採一般上限。
-- 增量掃描只追加確認的新路徑，不覆寫既有原圖基準。遊戲移動後可重新連結；離線可查看保存資料，但不能寫入遊戲。
-- 外部修改衝突會阻擋套用／還原，不提供強制覆蓋。操作失敗時依畫面處理恢復，保留備份與錯誤訊息。
-- 乾淨 Windows 環境、最終發行包及升級相容性仍有待驗收項目；目前不是已完成全部平台驗收的 1.0 正式版。
+- RPG Maker MV/MZ with unencrypted or standard encrypted images. Custom encryption and modified engines are not guaranteed.
+- Static PNG only; JPEG, APNG, and disguised file extensions are rejected. File size limit: 32 MiB.
+- Normal limit: 16,777,216 pixels. Replacement and batch imports can process larger images after confirmation, up to 33,554,432 pixels. Original scans and project covers retain the normal limit.
+- Incremental scanning only adds confirmed new paths; it does not overwrite the original baseline. Relink a moved game. Saved data remains viewable offline, but game writes are disabled.
+- External changes block apply/restore operations; there is no force-overwrite option. Follow recovery prompts after a failure and retain backups and error messages.
+- Clean-Windows, final-package, and upgrade compatibility checks still have outstanding items. This is not a fully validated 1.0 release.
 
-## 問題回報與授權
+## Reporting problems and license
 
-請使用儲存庫的 Issues（若已啟用），提供版本、Windows／引擎版本、重現步驟、預期與實際結果，以及錯誤截圖。遮蔽個人路徑，不要上傳完整私人遊戲、加密金鑰或未獲授權素材。
+Use this repository's Issues, if enabled. Include the application, Windows, and engine versions; reproduction steps; expected/actual results; and error screenshots. Redact personal paths. Do not upload complete private games, encryption keys, or assets you are not authorized to share.
 
-本專案採 [MIT 授權](LICENSE)，Copyright © 2026 Zeke Gan。第三方元件與遊戲素材不因本專案採 MIT 而改變授權；發行包的第三方聲明仍須在正式發布前核對。
+[MIT License](LICENSE), Copyright © 2026 Zeke Gan. Third-party components and game assets retain their own licenses. Notices in the final distribution still require review before release.
 
-[版本更新](docs/UPDATE_0.5.9.md) · [開發與 AI 文件](docs/development/INDEX.md)
+[Version notes](docs/UPDATE_0.5.10.md) · [Developer and AI documentation](docs/development/INDEX.md)

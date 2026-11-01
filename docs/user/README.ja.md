@@ -2,11 +2,11 @@
 
 <img src="../../resources/icon.png" alt="R-aW" width="96" height="96" />
 
-[繁體中文](../../README.md) · [简体中文](README.zh-CN.md) · 日本語 · [English](README.en.md)
+[English](../../README.md) · [繁體中文](README.zh-TW.md) · [简体中文](README.zh-CN.md) · 日本語
 
 Windows で RPG Maker MV／MZ（RPGツクール MV／MZ）の画像差し替えを管理するツールです。元画像を固定バックアップとして保存し、差し替え版のプレビュー、一括対応付け、確認後の適用と復元を行えます。
 
-現在のソースコードのバージョンは **0.5.9** です。1.0 の公開準備中であり、公開済みではありません。対象は Windows x64 です。最低対応 Windows バージョンと ARM64 は未検証です。
+現在のソースコードのバージョンは **0.5.10** です。1.0 の公開準備中であり、公開済みではありません。対象は Windows x64 です。最低対応 Windows バージョンと ARM64 は未検証です。
 
 ## ダウンロードと起動
 
@@ -48,4 +48,4 @@ ZIP の**全ファイルを展開**し、書き込み可能なフォルダー内
 
 [MIT ライセンス](../../LICENSE)、Copyright © 2026 Zeke Gan。第三者のコンポーネントやゲーム素材には、それぞれのライセンスが適用されます。正式公開前に配布物の第三者ライセンス表示を確認する必要があります。
 
-[変更履歴](../UPDATE_0.5.9.md) · [開発者・AI 向け資料](../development/INDEX.md)
+[変更履歴](../UPDATE_0.5.10.md) · [開発者・AI 向け資料](../development/INDEX.md)
